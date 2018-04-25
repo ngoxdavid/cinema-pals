@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profileLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.davidngo.moviepal.ProfileTab"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profilePicture"
+            android:layout_width="145dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher_round" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Your Name"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Email Address"
+            android:layout_weight=".25"
+            android:textSize="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight=".25"
+            android:text="Location"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/watchlistNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight=".25"
+            android:text="# Movies Left to Watch"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/email"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/watchlistButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Watchlist"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"/>
+
+            <Button
+                android:id="@+id/editInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:text="Edit Profile" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

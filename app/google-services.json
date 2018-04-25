@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "849073148123",
+    "project_id": "moviepal-188012"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849073148123:android:34de338ce83d1d59",
+        "android_client_info": {
+          "package_name": "com.example.davidngo.moviepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849073148123-42tt645vtb1rh020ttlfm6cs7ctpek6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.davidngo.moviepal",
+            "certificate_hash": "6cde7f83a474ef7cb216bde0e76e62bd8ea95106"
+          }
+        },
+        {
+          "client_id": "849073148123-lbck4d40jrbt5j8i5k50erh050gmhhde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEg9NgWqkPaqDA06oFmVG3e7yMWqX8SAY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/movies_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:minHeight="72dp">
+
+
+        <ImageView
+            android:id="@+id/posterImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_b_border"
+            android:layout_weight=".5"
+            android:gravity="center"
+            app:srcCompat="@android:drawable/arrow_down_float" />
+
+
+
+        <Button
+            android:id="@+id/seenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Mark as seen"
+            android:gravity="center"
+            android:background="@color/lightgrey"
+            android:textColor="#0000ff" />
+</LinearLayout>
+

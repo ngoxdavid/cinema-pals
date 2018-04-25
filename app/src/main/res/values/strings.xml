@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cinema Pals</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_movie_details">MovieDetails</string>
+    <string name="title_activity_search_results">SearchResults</string>
+    <string name="title_activity_showtime_details">ShowtimeDetails</string>
+    <string name="title_activity_watchlist">Watchlist</string>
+</resources>

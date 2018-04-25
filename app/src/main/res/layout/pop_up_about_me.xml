@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#31c2d8">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cinema Pals ©\nCreated By: David Ngo\nVersion 1.0.0\n\n APIs Used: \n TMDb \n International Showtimes\n\n Libraries Used: \n Retrofit \n Picasso\n TinyDB" />
+
+</LinearLayout>
